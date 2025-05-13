@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Real-Time Collaboration without Backend
+- Peer-to-Peer collaboration using WebRTC
+- No server-side infrastructure required
+- Direct browser-to-browser communication
+- WebRTC Data Channels for real-time sync
+
+## Collaboration Approach
+- Uses WebRTC for direct peer connections
+- Broadcasts document changes via data channels
+- Generates unique user IDs
+- Handles user management and content synchronization
+
+## Limitations
+- Requires manual peer connection management
+- Best for small, controlled collaboration scenarios
+- May have complexity in large-scale deployments
+
+## Notes
+- STUN servers used for NAT traversal
+- Requires modern browser support for WebRTC
